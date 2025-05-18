@@ -7,8 +7,6 @@ from pdf2image import convert_from_path
 from PIL import Image, ImageOps
 import pytesseract
 
-# Ścieżka do tesseract.exe (zmień, jeśli masz inną)
-pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 
 def extract_all_ids_from_gramatury(pdf_path):
     """
